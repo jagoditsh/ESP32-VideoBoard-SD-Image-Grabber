@@ -1,8 +1,9 @@
 /**********************************************************************
-  Filename    : Camera and SDcard
-  Description : Use the onboard buttons to take photo and save them to an SD card.
-  Auther      : www.freenove.com
-  Modification: 2026/05/16
+Board: ESP32S3 Dev Module
+Tools:
+   Flash Size: "8MB (64Mb)"
+   Partition Scheme: "Huge APP (3MB No OTA/ 1MB SPIFFS)"
+   PSRAM: "OPI PSRAM"
 **********************************************************************/
 #include "esp_camera.h"
 #define CAMERA_MODEL_ESP32S3_EYE
