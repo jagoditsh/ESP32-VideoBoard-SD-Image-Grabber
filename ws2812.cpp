@@ -1,5 +1,6 @@
 
 #include "ws2812.h"
+#include "Freenove_WS2812_Lib_for_ESP32.h"
 
 Freenove_ESP32_WS2812 strip = Freenove_ESP32_WS2812(1, WS2812_PIN, 1, TYPE_GRB);
 
